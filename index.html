@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Artificial Intelligence</title>
+</head>
+
+<body>
+
+    <h1>My Artificial Intelligence</h1>
+
+    <input id="message" type="text" placeholder="What's up, Sarah?">
+    <button id="send">Send</button>
+
+    <div id="conversation"></div>
+
+    <script>
+        const sendButton = document.getElementById("send");
+        const messageInput = document.getElementById("message");
+
+        sendButton.addEventListener("click", function () {
+            alert(messageInput.value);
+        });
+    </script>
+
+</body>
+</html>
