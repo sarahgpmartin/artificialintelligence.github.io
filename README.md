@@ -1,1 +1,0 @@
-# artificialintelligence.github.io
